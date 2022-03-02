@@ -6,6 +6,7 @@ package co.bound.exercise;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+// TODO: You'll probably want to replace this test class!
 class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();

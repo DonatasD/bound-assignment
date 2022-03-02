@@ -1,5 +1,6 @@
 package co.bound.exercise;
 
+// TODO: Replace this class with something useful!
 public class App {
     public String getGreeting() {
         return "Hello World!";
