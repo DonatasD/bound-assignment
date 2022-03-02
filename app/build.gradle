@@ -17,6 +17,8 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":third-party-stubs"))
+
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 
