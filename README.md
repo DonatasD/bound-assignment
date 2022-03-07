@@ -23,7 +23,7 @@ the recommendations, nor do you have the shipping and purchasing infrastructure.
 with a book search engine called Boogle and an online bookstore called Valdivia.
 
 The founders have come up with the following user stories for the team to build, and you are tasked with the backend implementation:
-1. As a reader, I would like to be able to search for books by title
+1. As a reader, I would like to be able to search for books by author
 2. As a reader, I would like to be able to find out how much a book costs
 3. As a reader, I would like to be able to purchase a book and get it delivered to my door
 4. As part of the marketing team, I would like to be able to find out what books our readers search for and how often they order them
