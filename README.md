@@ -62,6 +62,8 @@ There are two methods in this class:
 
 ## The Architectural Discussion
 
+NOTE: This part of the interview is done during the live interviews and it is **NOT** part of the take home assignment.
+
 Once you've completed the coding exercise, we'll move on to an architectural discussion. This will be very heavily based
 on the coding exercise. We'll ask you to share your screen and draw some diagrams using https://www.websequencediagrams.com.
 This website, as the name suggests, provides a simple way of drawing sequence diagrams and uses a simple DSL for creating them.
