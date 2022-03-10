@@ -1,3 +1,9 @@
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
 rootProject.name = 'backend-exercise'
 include('app')
 include('third-party-stubs')
