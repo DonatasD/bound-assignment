@@ -1,5 +1,8 @@
 plugins {
     id 'application'
+    id 'org.springframework.boot' version '2.7.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
 }
 
 java {
@@ -8,11 +11,16 @@ java {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     implementation(project(":third-party-stubs"))
-    // TODO: Use any libraries or frameworks you'd like
+    implementation 'org.springframework.boot:spring-boot-starter-web'
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 application {
@@ -22,4 +30,3 @@ application {
 tasks.named('test') {
     useJUnitPlatform()
 }
-
